@@ -1,0 +1,6 @@
+# Tarea 16: Análisis de sentimiento
+# Comando:
+curl -X GET "http://<CODE_ENGINE_URL>/analyze/Servicios%20fantasticos"
+
+# Salida:
+{"sentiment": "positive"}

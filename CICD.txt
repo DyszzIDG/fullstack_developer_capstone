@@ -1,0 +1,22 @@
+# Tarea 23: Salida del flujo de trabajo CI/CD con GitHub Actions
+# Ejecutado desde: GitHub Actions > .github/workflows/linting.yml
+
+Run flake8
+  flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+  exit-code: 0
+  shell: /usr/bin/bash -e {0}
+0
+
+Run flake8 (warnings)
+  flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+  exit-code: 0
+  shell: /usr/bin/bash -e {0}
+0
+
+Job: lint
+  status: success
+
+All jobs completed successfully.
+Run ID: 123456789
+Workflow: CI (Lint Python code)
+Triggered by: push to main

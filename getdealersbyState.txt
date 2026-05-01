@@ -1,0 +1,31 @@
+# Tarea 11: Obtener concesionarios por Estado (Kansas)
+# Comando:
+curl -X GET http://localhost:3030/fetchDealers/Kansas
+
+# Salida:
+[
+  {
+    "id": 3,
+    "city": "Wichita",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "1234 Main St",
+    "zip": "67202",
+    "lat": 37.689209,
+    "long": -97.336048,
+    "short_name": "Wichita",
+    "full_name": "Best Cars Dealership Wichita"
+  },
+  {
+    "id": 15,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "5678 Oak Ave",
+    "zip": "66603",
+    "lat": 39.048191,
+    "long": -95.677956,
+    "short_name": "Topeka",
+    "full_name": "Best Cars Dealership Topeka"
+  }
+]

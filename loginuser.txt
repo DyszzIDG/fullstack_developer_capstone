@@ -1,0 +1,8 @@
+# Tarea 5: Login de usuario con cURL
+# Comando:
+curl -X POST http://localhost:8000/djangoapp/login \
+  -H "Content-Type: application/json" \
+  -d '{"userName": "testuser", "password": "testpassword123"}'
+
+# Salida:
+{"status": "Authenticated"}

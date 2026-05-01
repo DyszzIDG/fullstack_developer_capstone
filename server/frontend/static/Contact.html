@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0f0f1a; color: #f0f0f0; }
+    .navbar { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+    .navbar-brand { font-weight: 700; color: #6c63ff !important; }
+    .nav-link.active { color: #6c63ff !important; font-weight: 600; }
+    .page-header { background: linear-gradient(135deg, #1a1a2e, #16213e);
+                   padding: 80px 0; text-align: center; }
+    .page-header h1 span { color: #6c63ff; }
+    .contact-card { background: #1a1a2e; border-radius: 16px; padding: 30px;
+                    border: 1px solid #2a2a4a; }
+    .contact-item { display: flex; align-items: center; gap: 16px;
+                    padding: 16px 0; border-bottom: 1px solid #2a2a4a; }
+    .contact-item:last-child { border-bottom: none; }
+    .contact-icon { width: 50px; height: 50px; border-radius: 12px;
+                    background: linear-gradient(135deg, #6c63ff, #5a52e0);
+                    display: flex; align-items: center; justify-content: center; font-size: 1.4rem; }
+    .contact-form { background: #1a1a2e; border-radius: 16px; padding: 40px; border: 1px solid #2a2a4a; }
+    .form-control { background: #0f0f1a; border: 1px solid #2a2a4a; color: #f0f0f0; }
+    .form-control:focus { background: #0f0f1a; color: #f0f0f0; border-color: #6c63ff; box-shadow: 0 0 0 3px rgba(108,99,255,.2); }
+    .btn-primary { background: #6c63ff; border: none; border-radius: 30px; padding: 12px 30px; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">🚗 Best Cars Dealership</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/static/About.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/static/Contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/djangoapp/get_dealers">View Dealers</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>Contact <span>Us</span></h1>
+    <p class="text-secondary mt-3">We'd love to hear from you!</p>
+  </div>
+
+  <div class="container py-5">
+    <div class="row g-5">
+      <div class="col-md-5">
+        <div class="contact-card">
+          <h4 style="color:#6c63ff" class="mb-4">Get in Touch</h4>
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <p class="mb-0 fw-bold">Email</p>
+              <a href="mailto:support@bestcars.com" class="text-secondary text-decoration-none">support@bestcars.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <p class="mb-0 fw-bold">Phone</p>
+              <span class="text-secondary">+1 (800) 555-CARS</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <p class="mb-0 fw-bold">Website</p>
+              <a href="https://www.bestcars.com" class="text-secondary text-decoration-none">www.bestcars.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <p class="mb-0 fw-bold">Headquarters</p>
+              <span class="text-secondary">100 Auto Drive, Detroit, MI 48201</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contact-form">
+          <h4 style="color:#6c63ff" class="mb-4">Send a Message</h4>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="John Doe" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="john@example.com" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-control" placeholder="How can we help?" />
+            </div>
+            <div class="mb-4">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="5" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

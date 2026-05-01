@@ -1,0 +1,63 @@
+# Tareas 14 y 15: Obtener todas las marcas y modelos de autos
+# Comando marcas (CarMake):
+curl -X GET http://localhost:8000/djangoapp/get_cars
+
+# Salida:
+{
+  "CarMakes": [
+    {
+      "id": 1,
+      "name": "Toyota",
+      "description": "Japanese multinational automotive manufacturer",
+      "country_of_origin": "Japan"
+    },
+    {
+      "id": 2,
+      "name": "Honda",
+      "description": "Japanese public multinational conglomerate",
+      "country_of_origin": "Japan"
+    },
+    {
+      "id": 3,
+      "name": "Audi",
+      "description": "German automobile manufacturer",
+      "country_of_origin": "Germany"
+    },
+    {
+      "id": 4,
+      "name": "Ford",
+      "description": "American multinational automobile manufacturer",
+      "country_of_origin": "USA"
+    }
+  ],
+  "CarModels": [
+    {
+      "id": 1,
+      "name": "Camry",
+      "make": "Toyota",
+      "type": "Sedan",
+      "year": 2023
+    },
+    {
+      "id": 2,
+      "name": "Civic",
+      "make": "Honda",
+      "type": "Sedan",
+      "year": 2022
+    },
+    {
+      "id": 3,
+      "name": "A6",
+      "make": "Audi",
+      "type": "Sedan",
+      "year": 2021
+    },
+    {
+      "id": 4,
+      "name": "Mustang",
+      "make": "Ford",
+      "type": "Sports",
+      "year": 2023
+    }
+  ]
+}

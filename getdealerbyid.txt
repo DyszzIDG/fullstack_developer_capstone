@@ -1,0 +1,17 @@
+# Tarea 10: Obtener concesionario por ID
+# Comando:
+curl -X GET http://localhost:3030/fetchDealer/3
+
+# Salida:
+{
+  "id": 3,
+  "city": "Wichita",
+  "state": "Kansas",
+  "st": "KS",
+  "address": "1234 Main St",
+  "zip": "67202",
+  "lat": 37.689209,
+  "long": -97.336048,
+  "short_name": "Wichita",
+  "full_name": "Best Cars Dealership Wichita"
+}

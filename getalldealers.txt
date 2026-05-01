@@ -1,0 +1,43 @@
+# Tarea 9: Obtener todos los concesionarios
+# Comando:
+curl -X GET http://localhost:3030/fetchDealers
+
+# Salida:
+[
+  {
+    "id": 1,
+    "city": "Huntsville",
+    "state": "Alabama",
+    "st": "AL",
+    "address": "116 Carriage Lane",
+    "zip": "35801",
+    "lat": 34.730369,
+    "long": -86.586104,
+    "short_name": "Huntsville",
+    "full_name": "Best Cars Dealership Huntsville"
+  },
+  {
+    "id": 2,
+    "city": "Phoenix",
+    "state": "Arizona",
+    "st": "AZ",
+    "address": "2500 E Thomas Rd",
+    "zip": "85016",
+    "lat": 33.478505,
+    "long": -112.027071,
+    "short_name": "Phoenix",
+    "full_name": "Best Cars Dealership Phoenix"
+  },
+  {
+    "id": 3,
+    "city": "Wichita",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "1234 Main St",
+    "zip": "67202",
+    "lat": 37.689209,
+    "long": -97.336048,
+    "short_name": "Wichita",
+    "full_name": "Best Cars Dealership Wichita"
+  }
+]

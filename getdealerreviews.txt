@@ -1,0 +1,31 @@
+# Tarea 8: Obtener reseñas de un concesionario específico
+# Comando:
+curl -X GET http://localhost:3030/fetchReviews/dealer/29
+
+# Salida:
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "dealership": 29,
+    "review": "Great service and friendly staff!",
+    "purchase": true,
+    "purchase_date": "2023-05-15",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2022,
+    "sentiment": "positive"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "dealership": 29,
+    "review": "Very smooth buying experience.",
+    "purchase": true,
+    "purchase_date": "2023-07-20",
+    "car_make": "Honda",
+    "car_model": "Civic",
+    "car_year": 2021,
+    "sentiment": "positive"
+  }
+]

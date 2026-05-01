@@ -1,0 +1,4 @@
+# Tarea 24: URL de despliegue de la aplicación Django en Kubernetes
+# Reemplaza esta URL con la URL real de tu despliegue
+
+https://best-cars-dealership.us-south.cf.appdomain.cloud

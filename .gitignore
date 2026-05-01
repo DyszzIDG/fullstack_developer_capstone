@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.egg-info/
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# React build (no subir el build)
+server/frontend/build/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+build_react.py
+build_react.js
